@@ -279,7 +279,7 @@ window.addEventListener('DOMContentLoaded', () => {
     openModal();
 
     const thanksModal = document.createElement('div');
-    thanksModal.classList.add('modal_dialog');
+    thanksModal.classList.add('modal__dialog');
     thanksModal.innerHTML = `
       <div class="modal__content">
         <div class="modal__close" data-close>×</div>
