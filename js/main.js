@@ -1,7 +1,6 @@
-//Табы
-
 window.addEventListener('DOMContentLoaded', () => {
 
+  //Табы
   const tabs = document.querySelectorAll('.tabheader__item'),
     tabsContent = document.querySelectorAll('.tabcontent'),
     tabsParent = document.querySelector('.tabheader__items');
@@ -294,8 +293,6 @@ window.addEventListener('DOMContentLoaded', () => {
     .then(res => console.log(res));
 
   //Slider
-
-  //скорректировать изначальный ноль (93 урок), может даже откатить версию
 
   const slides = document.querySelectorAll('.offer__slide'),
     prev = document.querySelector('.offer__slider-prev'),
